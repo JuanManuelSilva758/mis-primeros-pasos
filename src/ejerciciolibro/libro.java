@@ -7,16 +7,15 @@ public class libro {
     private String  titulo;
     private String autor;
     private int numdepaginas;
-  
+  private int totaldehojas;
     /*contructores*/
-      public libro (int pISBN,String ptitulo,String pautor,int pnumdepaginas ){
+      public libro (int pISBN,String ptitulo,String pautor,int pnumdepaginas,int hojas ){
           ISBN=pISBN;
           titulo=ptitulo;
           autor=pautor;
           numdepaginas=pnumdepaginas;
-          
-          
-      }
+          totaldehojas=hojas;
+             }
       /*metodos*/
 
     public int getISBN() {
@@ -60,4 +59,4 @@ public class libro {
 
   
     }
-}
+
