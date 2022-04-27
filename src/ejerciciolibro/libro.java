@@ -8,13 +8,16 @@ public class libro {
     private String autor;
     private int numdepaginas;
   private int totaldehojas;
+  
+  private int cantidad; 
     /*contructores*/
-      public libro (int pISBN,String ptitulo,String pautor,int pnumdepaginas,int hojas ){
+      public libro (int pISBN,String ptitulo,String pautor,int pnumdepaginas,int hojas , int cantidadvendida){
           ISBN=pISBN;
           titulo=ptitulo;
           autor=pautor;
           numdepaginas=pnumdepaginas;
           totaldehojas=hojas;
+          cantidad=cantidadvendida;
              }
       /*metodos*/
 
